@@ -1,0 +1,18 @@
+{
+  "name": "rc",
+  "description": "RC module",
+  "chip": "STM32F303CC",
+  "required_packages": [
+    "stm32_flash",
+    "stm32_crc",
+    "snippets"
+  ],
+  "chibios_components": [
+    "rt",
+    "hal",
+    "icu",
+    "pal",
+    "pwm",
+    "syscalls"
+  ]
+}

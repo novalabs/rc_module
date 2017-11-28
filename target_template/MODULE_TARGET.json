@@ -1,0 +1,18 @@
+{
+  "name": "rc",
+  "description": "rc",
+  "module": "rc",
+  "os_version": "CHIBIOS_16",
+  "required_os_components": [],
+  "required_packages": [
+    "common_msgs",
+    "led",
+    "rc"
+  ],
+  "sources": [
+    "main.cpp"
+  ],
+  "includes": [],
+  "bootloader_size": 16384,
+  "configuration_size": 2048
+}
